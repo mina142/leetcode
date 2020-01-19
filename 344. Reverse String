@@ -1,0 +1,11 @@
+ ArrayList<String> stringArray = new ArrayList<>();
+        stringArray.add("H");
+        stringArray.add("E");
+        stringArray.add("L");
+        stringArray.add("L");
+        stringArray.add("O");
+        ArrayList<String> revereseList = new ArrayList<>();
+        for(int i = 4 ; i >= 0 ; i--){
+            revereseList.add(stringArray.get(i));
+        }
+        System.out.println(revereseList);
